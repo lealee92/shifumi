@@ -10,11 +10,33 @@
   <body>
     <h1>Shifumi</h1>
     <div class="container">
-      <div class="pictures">
-        <img src="./img/pierre.jpg" alt="pierre" />
-        <img src="./img/feuilles.jpg" alt="pierre" />
-        <img src="./img/scissors.jpg" alt="pierre" />
+      
+      <input type="image" src="./img/pierre.jpg" class="pictures" data-selection="rock"/>
+      <input type="image" src="./img/scissors.jpg" class="pictures" data-selection="scissors"/>
+      <input type="image" src="./img/feuilles.jpg" class="pictures" data-selection="paper"/>
+      
+    </div>
+    <div class="results">
+      <div>You :
+        <span class="result-score" data-your-score>0</span>
+
       </div>
+      <div data-final-column>Computer :
+        <span class="result-score" data-computer-score>0</span>
+      </div>
+      <!-- <div class="result-selection winner">
+        <input type="image" src="./img/pierre.jpg" class="pictures" />
+      </div>
+      <div class="result-selection loser">      <input type="image" src="./img/feuilles.jpg" class="pictures" />
+      </div> -->
+    </div>
+   
+    <!-- <div class="container">
+      <div class="pictures">
+        <img src="./img/pierre.jpg" alt="pierre" class="stone" />
+        <img src="./img/feuilles.jpg" alt="feuilles" class="leaves" />
+        <img src="./img/scissors.jpg" alt="ciseaux" class="scissors" />
+      </div> -->
 
       <!-- <div class="result">
         <img src="./img/pierre.jpg" alt="pierre" />
